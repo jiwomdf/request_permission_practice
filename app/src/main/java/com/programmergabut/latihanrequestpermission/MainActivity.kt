@@ -99,4 +99,8 @@ class MainActivity : AppCompatActivity() {
             .show()
     }
 
+    private fun intentToLocationSetting(){
+        startActivity(Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS))
+    }
+
 }
